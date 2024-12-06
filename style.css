@@ -1,0 +1,193 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay {
+  width: 65%;
+  height: 90%;
+  display: flex;
+  background-image: url(https://i.pinimg.com/236x/08/5f/3c/085f3c0b8e4ea5640c51a1c73ca879b0.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.overlay > .left {
+  width: 55%;
+  height: 100%;
+  color: white;
+  padding-top: 5%;
+}
+
+.left > h1 {
+  padding-left: 50px;
+  font-size: 45px;
+  font-weight: 800;
+  font-family: "Voyage";
+}
+
+.left > h4 {
+  padding-left: 50px;
+  font-size: 25px;
+  font-weight: 600;
+  font-family: "Voyage";
+}
+
+.left > h6 {
+  padding-left: 50px;
+  margin-top: 20px;
+  font-size: 10px;
+  font-family: "Montserrat";
+}
+
+#a {
+  padding-left: 50px;
+  font-size: 25px;
+  font-family: "Montserrat";
+}
+
+.left > p {
+  padding-left: 50px;
+  font-size: 12px;
+  font-family: "Montserrat";
+}
+
+.left > h2 {
+  padding-left: 50px;
+  margin-top: 30px;
+  font-size: 20px;
+  font-family: "Montserrat";
+}
+
+.left > .speakers {
+  margin-left: 50px;
+  margin-top: 5px;
+  width: 75%;
+  height: 24%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.speakers > .img {
+  width: 80px;
+  height: 80px;
+  border-radius: 80px;
+  overflow: hidden;
+}
+
+.left > .text {
+  margin-left: 50px;
+  width: 85%;
+  height: 10%;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Montserrat";
+}
+
+.text > .b {
+  width: 100%;
+  height: 100%;
+}
+
+.b > h6 {
+  font-size: 10px;
+  font-weight: 500;
+  color: rgb(48, 170, 246);
+}
+
+.b > p {
+  font-size: 8px;
+  font-weight: 700;
+  padding-left: 20px;
+}
+
+#d {
+  padding-left: 25px;
+}
+
+.overlay > .right {
+  width: 45%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.right > h1 {
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+  padding-top: 20%;
+  padding-bottom: 30px;
+  font-family: "Montserrat";
+}
+
+.box {
+  width: 70%;
+  height: 50%;
+  padding-top: 20px;
+}
+
+.box > label {
+  font-size: 20px;
+  color: white;
+}
+
+.box > input {
+  padding-bottom: 15px;
+  font-size: 12px;
+  width: 90%;
+  background-color: black;
+  border: none;
+  border-radius: 2px;
+}
+
+button {
+  margin-top: 25px;
+  padding: 5px 12px;
+  font-family: "Montserrat";
+  font-size: 13px;
+  border: none;
+  border-radius: 2px;
+  background-color: whitesmoke;
+}
+
+.bottom {
+  width: 50%;
+  height: 8%;
+  margin-top: 18%;
+  margin-left: 50%;
+}
+
+.bottom > p {
+  font-size: 10px;
+  color: white;
+}
+
+.bottom > h6 {
+  font-size: 10px;
+  font-weight: 500;
+  color: white;
+}
+
+.bottom > i {
+  font-size: 10px;
+  color: white;
+}
